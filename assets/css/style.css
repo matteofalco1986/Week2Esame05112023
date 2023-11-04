@@ -1,0 +1,143 @@
+/* Your styles here */
+
+/* MAIN SETTINGS */
+
+html{
+    min-width: 907px;
+}
+
+body {
+    color: #F0EDF0;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.0;
+    text-align: center;
+    background-color: #D2D6D7;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.4em;
+    text-transform: capitalize;
+    padding: 0.8em 0rem;
+}
+
+a {
+    text-decoration: none;
+    color: #F0EDF0;
+}
+
+/* HEADER */
+
+#header-logo{
+    padding: 0.3em 2.2vw;
+    width: 11vw;
+}
+
+header {
+    background-color: #222F3F;
+    text-align: left;
+}
+nav {
+    background-color: #364759;
+    margin-bottom: 1.2rem;
+}
+nav ul{
+    padding: 0vw 2.2vw;
+}
+nav ul li{
+    font-weight: 100;
+    font-size: 0.7em;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0.5em 1em 0.5em 0em;
+}
+.not-capitalize{
+    text-transform: none;
+}
+
+/* MAIN */
+
+#main-content{
+    padding: 0px 2.2vw;
+}
+
+.top-page{
+    background-color: #F66404;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    padding: 0.5em ;
+    margin-bottom: 1.2rem;
+}
+
+.page-title{
+    background-image: url("../images/bg-image.png");
+    background-size: 87vw;
+    background-position-x: left;
+    padding: 2rem 0px;
+    margin-bottom: 1.2rem;
+}
+
+.page-title p{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+
+.image-with-tag{
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+#grouped-images{
+    background-color: #FFFFFF;
+    text-align: left;
+    width: 97.3%;
+    padding: 1.3vw
+}
+
+.image-with-tag p {
+    display: inline-block;
+    color: #111111;
+    font-size: 0.9em;
+    padding: 0px 0.7em;
+}
+.image-with-tag p a{
+    color: #005D68;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.image-with-tag img{
+    width: 100%;
+}
+
+.aligned-pictures img{
+    display: inline-block;
+    margin: 1em 1.1vw 0px 1.2vw;
+    border-radius: 20px;
+    width: 22%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: #DBDCE3 0.3em 0.3em 0.6em;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #222F3F;
+}
+
+footer p{
+    background-color: #364759;
+    font-size: 0.8em;
+    padding: 1em;
+    text-decoration: underline;
+}
+
+#footer-logo{
+    padding: 2.5em;
+    width: 12vw;
+}
